@@ -1,0 +1,30 @@
+{
+  "name": "ngTutorial",
+  "version": "0.0.0",
+  "description": "AngularJS tutorial with node-webkit and MySQL",
+  "main": "app/pages/Main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siteslave/ngTutorial"
+  },
+  "author": "Satit Rianpit <rianpit@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-less": "^3.0.1",
+    "gulp-watch": "^4.1.1"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "jsonfile": "^2.0.0",
+    "knex": "^0.7.5",
+    "lodash": "^3.5.0",
+    "moment": "^2.9.0",
+    "mysql": "^2.5.5"
+  }
+}
