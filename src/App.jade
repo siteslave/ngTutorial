@@ -1,0 +1,13 @@
+//- ng-show/ng-hide
+doctype html
+html
+    head
+        title Show/Hide
+        script(src="../vendor/angular/angular.js")
+        script(src="MainController.js")
+    body(ng-app="app", ng-controller="MainController")
+
+        button(type="button", ng-show="isShow", style="background-color: red;")
+            | Welcome to AngularJS
+        br
+        button(type="button", ng-click="toggleMe()") Show/Hide
