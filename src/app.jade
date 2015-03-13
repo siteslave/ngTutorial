@@ -1,0 +1,13 @@
+//- Basic controller
+doctype html
+html
+    head
+        title Basic controller
+        script(src="../vendor/angular/angular.js")
+        script(src="MainController.js")
+
+    body(ng-app="app", ng-controller="MainCtrl")
+        label(for="txtName") Your name:
+        input(type="text", ng-model="name")
+        button(type="button", ng-click="showName()") Show me.
+        button(type="button", ng-click="showNameParam('Steve Job')") Who are you?
