@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title Hello world
+        script(src="../vendor/angular/angular.js")
+
+    body(ng-app)
+        label(for="txtName") Your name:
+        input(type="text", ng-model="name")
+        span {{ name }}
