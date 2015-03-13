@@ -4,6 +4,7 @@
   "description": "AngularJS tutorial with node-webkit and MySQL",
   "main": "app/pages/Main.html",
   "scripts": {
+    "start": "http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
