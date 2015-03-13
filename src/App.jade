@@ -1,0 +1,12 @@
+//- ng-repeat
+doctype html
+html
+    head
+        title Show/Hide
+        script(src="../vendor/angular/angular.js")
+        script(src="MainController.js")
+    body(ng-app="app", ng-controller="MainController")
+        ul
+            li(ng-repeat="p in products")
+                span(ng-if="p.qty < 10", style="color: red;") {{ p.name }} [{{ p.qty }}]
+                span(ng-if="p.qty >= 10", style="color: green;") {{ p.name }} [{{ p.qty }}]
